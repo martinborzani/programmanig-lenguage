@@ -1,8 +1,20 @@
+/*fondo*/
+
+body {
+    background-color: black;
+}
+
+
+/*tamaño de imagenes predeterminadas de las tarjetas*/
+
 .tarjetas img {
     width: 100px;
     height: 100px;
     margin: auto;
 }
+
+
+/*link de las tarjetas*/
 
 .tarjetas a {
     text-decoration: none;
@@ -16,15 +28,17 @@
     padding: 15px;
 }
 
-body {
-    background-color: black;
-}
+
+/*hover de los links*/
 
 .tarjetas a:hover {
     background-color: yellow;
     color: black;
     transition: 1s;
 }
+
+
+/*configuracion de las tarjetas*/
 
 .tarjetas {
     display: flex;
@@ -35,10 +49,49 @@ body {
     margin: 50px 400px 50px 400px;
 }
 
-@media (max-width: 820px) {
-    body {
-        background-color: black;
+
+/*Medias queri*/
+
+@media (max-width: 1280px) {
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 820px) {
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 912px) {
     .tarjetas {
         margin-left: 50px;
         margin-right: 50px;
