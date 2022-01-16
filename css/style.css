@@ -1,0 +1,68 @@
+.tarjetas img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.tarjetas a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 15px;
+}
+
+body {
+    background-color: black;
+}
+
+.tarjetas a:hover {
+    background-color: yellow;
+    color: black;
+    transition: 1s;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    margin: 50px 400px 50px 400px;
+}
+
+@media (max-width: 820px) {
+    body {
+        background-color: black;
+    }
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    body {
+        background-color: black;
+    }
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
